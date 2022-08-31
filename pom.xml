@@ -14,6 +14,8 @@
         <module>discovery</module>
         <module>gateway</module>
         <module>search</module>
+        <module>book-service</module>
+        <module>employee-sevice</module>
     </modules>
 
     <groupId>com.example</groupId>
