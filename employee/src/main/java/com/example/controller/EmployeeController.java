@@ -23,7 +23,7 @@ public class EmployeeController {
     public EmployeeController(EmployeeServiceImpl employeeService){
         this.employeeService = employeeService;
     }
-    @GetMapping("/employee")
+    @GetMapping("/employee/all")
     public ResponseEntity<?> getEmployees() {
         try{
             return new ResponseEntity<>(employeeService.getEmployees(), HttpStatus.OK);
